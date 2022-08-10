@@ -1,0 +1,15 @@
+version: "3"
+
+tasks:
+  build:
+    dir: trynim
+    cmds:
+      - nimble build
+  run:
+    dir: trynim
+    cmds:
+      - nimble run
+  clean:
+    dir: trynim
+    cmds:
+      - rm -f trynim
