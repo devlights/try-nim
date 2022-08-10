@@ -9,6 +9,10 @@ tasks:
     dir: trynim
     cmds:
       - nimble run
+  test:
+    dir: trynim
+    cmds:
+      - nimble test
   clean:
     dir: trynim
     cmds:
