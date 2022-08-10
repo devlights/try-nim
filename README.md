@@ -21,3 +21,9 @@ $ task clean
 ```sh
 $ task run
 ```
+
+## Test
+
+```sh
+$ task test
+```
